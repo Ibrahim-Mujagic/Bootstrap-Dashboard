@@ -1,0 +1,63 @@
+.br{
+  border: 1px solid red;
+}
+
+.ib-border-bottom{
+  border-bottom: 1px solid rgba(255, 255, 255,.4);
+}
+
+.ib-aside{
+  background-image: url('https://www.treehugger.com/thmb/nSp8ESJ1N6zq_bsTVL_MoSrKAqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont-data-aside{
+  background-color: rgba(147, 104, 232,.89);
+}
+
+.top-section-height{
+  height: 70px;
+}
+
+.ib-data-aside nav ul li{
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ib-data-aside nav ul li.active,li:hover{
+  background-color: rgba(255, 255, 255, .4);
+  border-radius: 10px;
+}
+
+.ib-data-aside nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.ib-data-aside nav ul li a i{
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.ib-data-aside nav ul li a span{
+  font-weight: 300;
+}
+
+.ib-upgrade-button-cont{
+  min-height: 80px;
+}
+
+.ib-upgrade-button-cont button{
+  background-color: rgba(255, 255, 255, .2);
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: .9rem;
+}
+
