@@ -6,6 +6,10 @@
   border-bottom: 1px solid rgba(255, 255, 255,.4);
 }
 
+.ib-border-bottom-sec{
+  border-bottom: 1px solid gainsboro;
+}
+
 .ib-aside{
   background-image: url('https://www.treehugger.com/thmb/nSp8ESJ1N6zq_bsTVL_MoSrKAqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg');
   background-position: bottom;
@@ -60,4 +64,42 @@
   color: #FFFFFF;
   font-size: .9rem;
 }
+
+/* FINE ASIDE */
+
+.ib-main-container{
+  overflow-y: scroll;
+  min-height: 100vh;
+}
+
+.content-dashboard header{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+.content-dashboard header nav ul li:hover,li.active-icon{
+  color: rgba(147, 104, 232,1) ;
+  cursor: pointer;
+}
+
+/* FINE HEADER */
+
+.btn-table-add{
+  border:1px solid rgba(147, 104, 232,1);
+  color: rgba(147, 104, 232,1);
+  cursor: pointer;
+}
+
+/* FINE TABLE */
+
+.cont-chart img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
 
