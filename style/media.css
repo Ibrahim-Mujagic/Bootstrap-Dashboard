@@ -68,6 +68,10 @@
     margin-bottom: 12px;
   }
 
+  .ib-navbar li.active a{
+    color: rgba(147, 104, 232,1);
+  }
+
   .ib-navbar li a{
     color: black;
     text-decoration: none;
